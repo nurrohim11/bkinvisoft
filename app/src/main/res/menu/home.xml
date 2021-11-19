@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/nav_akun"
+        android:title="Option"
+        android:orderInCategory="101"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_settings">
+
+        <menu>
+
+            <item android:title="Ganti Password"
+                android:id="@+id/option_password"
+                app:showAsAction="ifRoom"/>
+
+            <item android:title="Logout"
+                android:id="@+id/option_logout"
+                app:showAsAction="ifRoom"/>
+
+        </menu>
+    </item>
+</menu>
